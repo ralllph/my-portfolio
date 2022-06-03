@@ -1,0 +1,421 @@
+/* General eleents */
+*{
+box-sizing: border-box;
+}
+body{
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+}
+
+img{
+max-width: 100%;
+}
+
+.my-work-a{
+display: inline-block;
+text-decoration: none;
+color: black;
+background: #14CFAE;
+padding: .5em  1.5em;;
+cursor: pointer;
+border-radius: 3px;
+font-weight: 800;
+}
+
+a:hover, a:focus{
+transform: scale(1.05);
+}
+h2,h3{
+margin: 0;
+}
+
+section{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;;
+text-align: center;
+padding: 2em  0;
+}
+
+/* Typiography */
+h1,h2,h3,h4{
+font-weight: 300;
+}
+
+h2{
+font-size: 2rem;;
+font-weight: 800;
+}
+
+h4{
+font-weight: 800;
+font-size: 1.25rem;
+margin-bottom: 0;
+}
+
+p{
+line-height: 1.7rem;
+}
+
+
+
+
+.introduction-title{
+font-size: 1.2rem;;
+}
+
+.introduction-heading{
+font-weight: 300;
+font-size: 1.6rem;;
+}
+.introduction-heading span{
+font-weight: 800;
+font-size: 1.6rem;
+}
+
+.personality-location, .projects-header{
+font-size: 1.2rem;;
+}
+
+
+
+/* specific styles */
+/* image containers and images */
+.personality-img-container,.introduction-img-container,.project-img-container{
+box-shadow: 5px 4px 3px lightgray;
+margin: 1em 0;
+}
+.introduction-img-container{
+max-width: 200px;
+}
+.project-img-container{
+width: 90%;
+}
+.personality-img-container{
+width:80%;
+}
+.personality-img-container img,
+.introduction-img-container img, .project-img-container img{
+width: 100%;
+object-fit: cover;
+display: block;
+}
+
+/* header */
+header nav{
+display: flex;;
+justify-content: space-between;
+align-items: center;
+}
+
+
+
+.sidebar{
+position: fixed;
+top:0;
+left: 0;
+background-color: rgb(48,48,48);
+z-index: 100;
+height: 100%;
+width: 0;
+transition: 0.5s;
+overflow-x: hidden;
+}
+.sidebar ul{
+list-style: none;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 100%;
+align-items: center;
+margin: 0;
+padding: 0;
+}
+
+
+.list_item a{
+text-decoration: none;
+color: white;
+
+}
+
+.list_item a:hover{
+color: #14CFAE;
+}
+
+.sidebar-icon{
+position: absolute;
+right: 10px;
+}
+.close-sidebar{
+font-size: 2rem;
+color: red;
+cursor:pointer;
+}
+
+.close-sidebar:hover, .menu:hover{
+transform: scale(1.1);
+}
+.menu:hover{
+background-color: #14CFAE;    
+}
+
+/* Introduction */
+.introduction-title{
+background-color: rgb(22,224,189);
+margin: .2em 0;
+padding: .2em;
+}
+.introduction-heading span{
+display: block;
+}
+
+/* Skills */
+.skills-section{
+background-color: rgb(48,48,48); 
+padding: 2em .7em;
+color: whitesmoke;
+background-size: cover;
+background-repeat: no-repeat;
+background-image: url("./images/codesmall.jpg");
+background-blend-mode: multiply;
+background-position: center;
+
+
+}
+.skills-header{
+color: #14CFAE;
+}
+.skills-line-design{
+border: 1px dotted white;
+width: 30%;
+margin-top: 1em;
+}
+.skills-subheading,.skills-headline{
+color: white;
+max-width: 300px;
+margin: 0 auto;
+
+}
+
+/* Personality */ 
+.personality-section{
+max-width: 1000px;
+margin: 0 auto;
+}
+
+.personality-location{
+margin-top: 1em;
+background-color: #14CFAE;
+padding: .5em;
+}
+.personality-description{
+padding: .25em 1em;
+margin: 0 auto;
+}
+.personality-img-container img{
+margin-top: 1em;
+}
+
+/* Projects   */
+
+.Projects-section{
+background-color: rgb(48,48,48); ;
+padding: 2em .7em;
+
+}
+
+.Projects-section h2{
+color: white;
+}
+.projects-header{
+color: #14CFAE;
+}
+.project-img-container{
+margin-top: 1em;;
+}
+
+.project-img-container:hover{
+transform: scale(1.1);
+cursor: pointer;
+}
+
+/* footer */
+.footer-section{
+display: flex;
+background-color: rgb(20,20,20);
+}
+.footer-section p, .footer-section h4{
+color: #14CFAE;
+margin: 0;
+}
+.footer-section .big{
+font-size: 2rem;
+color: #14CFAE;
+}
+.footer-icons{
+margin-top: 1em;
+}
+.footer-socials{
+list-style: none;
+display: flex;
+justify-content: space-around;
+}
+.footer-socials-item{
+margin-right: 2em;
+}
+
+.big:hover{
+transform: scale(1.1);
+}
+
+/* media query large scren sizes */
+
+
+@media (min-width:600px){
+/* Typiography   */
+h2{
+font-size: 2.5rem;;
+}
+
+h4{
+font-size: 1.3rem;
+}
+
+.introduction-title{
+font-size: 1.5rem;;
+}
+
+.introduction-heading{
+font-size: 2.2rem;;
+}
+.introduction-heading span{
+font-size: 2.5rem;
+}
+
+.personality-location, .projects-header{
+font-size: 1.5rem;;
+}
+
+
+/* Header */
+h3{
+font-size: 1.3rem;
+}
+.menu{
+font-size: 1.5rem;
+}
+.list_item a{
+font-size: 1.5rem;
+}
+/* introduction section  */
+.introduction-section{
+    display: grid;
+    width: min-content;
+    grid-template-areas: 
+    "img heading "
+    "img title"
+    ;
+    margin: 0 auto;
+    grid-template-columns: min-content max-content;
+grid-column-gap: 1em;
+
+}
+
+.introduction-heading{
+    grid-area: heading;
+}
+
+.introduction-title{
+    grid-area: title;
+    grid-column: -1/1;
+    grid-row: 2;
+align-self: start;
+position: relative;
+text-align: right;
+left: -1.5em;
+width: calc(100% + 1.5em); 
+z-index: -1;
+margin-top: 0;
+}
+
+.introduction-img-container{
+    grid-area: img;
+    min-width: 170px;
+
+}
+
+
+/* Skills */
+.skills-section{
+background-color: rgb(48,48,48); 
+padding: 4em .7em;
+color: whitesmoke;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.skills-header{
+color: #14CFAE;
+}
+.skills-line-design{
+border: 1px dotted white;
+width: 10%;
+margin-top: 1em;
+}
+.skills-headline{
+    text-align: center;
+    max-width: 500px;
+}
+.skills-subheading{
+color: white;
+max-width: 300px;
+margin: 0 auto;
+padding: .5em;
+}
+.skills-subsection{
+    display: flex; 
+    margin-bottom: 4em;    
+}
+
+/* personality section */
+.personality-section{
+    display: grid;
+    grid-template-areas: 
+    "header img"
+    "location img"
+    "description img"
+    ;
+
+    grid-template-columns: 1fr 200px;
+    grid-column-gap: 1em;
+}
+
+.personality-location{
+    grid-area: location;
+    grid-row: 2;
+    align-self: start;
+    position: relative;
+    z-index: -20;
+    left: -1em;
+    width: calc(100% + 1em);
+    grid-column: -1/1;
+    text-align: left;
+    }
+    
+    .personality-description{
+        grid-area: description;
+    }
+    .personality-img-container{
+        grid-area: img;
+        min-width: 200px;
+    }
+
+    /* projects */
+    .projects-list{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    }
+}
