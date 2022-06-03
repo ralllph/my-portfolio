@@ -11,6 +11,7 @@ const  App=() =>{
 {/* my app component*/}
 return (
 <div className="App">
+    {/* subcomponents */}
 <Header />
 <Introduction />
 <Skills />
