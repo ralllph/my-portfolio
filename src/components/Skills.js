@@ -18,8 +18,7 @@ Bringing concepts and designs to life with great user experience  while maintini
 <div className="skills-subheading"> 
 <h4 >{" HTML & CSS"}</h4> 
 <p>
-I have a strong understanding of markup and styling using HTMl and css which are the basic 
-requirements for building  websites. Strongly grounded in these concepts as I have built several applications using these skills.
+I have a strong understanding of markup and styling using HTMl and css. Strongly grounded in these concepts as I have built several applications using these skills.
 </p>
 </div>
 

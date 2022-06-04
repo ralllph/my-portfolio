@@ -373,13 +373,15 @@ margin-top: 1em;
 }
 .skills-subheading{
 color: white;
-max-width: 300px;
-margin: 0 auto;
+max-width: 500px;
+margin-left: 1em;
+
 padding: .5em;
 }
 .skills-subsection{
     display: flex; 
-    margin-bottom: 4em;    
+    margin-bottom: 4em;  
+    max-width: 1000px;  
 }
 
 /* personality section */
@@ -409,6 +411,8 @@ padding: .5em;
     
     .personality-description{
         grid-area: description;
+    
+
     }
     .personality-img-container{
         grid-area: img;
