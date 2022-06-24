@@ -7,7 +7,7 @@ return(
 <div className="footer-icons">  
 <ul className="footer-socials"> 
 <li className = "footer-socials-item"> 
-<a href="https://twitter.com/__rafael8/status/1530664276914016262?s=21&t=3TfwYTXw4YzVo3VeRtgf6g" target="_blank" > 
+<a href="https://twitter.com/__rafael8/status/1538886774637862912?s=21&t=TlKTi0bTXHUsqECh-pMAuw" target="_blank" > 
 <i className="fa-brands fa-twitter big"></i> 
 </a>
 
