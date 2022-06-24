@@ -12,7 +12,7 @@ return(
 </a>
 
 </li>  
-<li className = "footer-socials-item"> <a href= " https://github.com/ralllph/new-inventory.git" target="_blank">  
+<li className = "footer-socials-item"> <a href= " https://github.com/ralllph/score-settle.git" target="_blank">  
 <i className="fa-brands fa-github big"></i>   </a> 
 </li> 
 <li className = "footer-socials-item">
